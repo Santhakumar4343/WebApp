@@ -1,0 +1,46 @@
+/* LoginSignup.css */ 
+.login-signup-container { 
+  max-width: 400px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #f5f5f5; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  background-color: darkcyan; 
+ 
+} 
+ 
+.input-group { 
+  margin-bottom: 15px; 
+} 
+ 
+input[type="text"], 
+input[type="email"], 
+input[type="password"] { 
+  width: 95%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  font-size: 16px; 
+} 
+ 
+button { 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 3px; 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-top:20px; 
+   
+} 
+ 
+button:hover { 
+  background-color: #0056b3; 
+} 
+ 
+@media (max-width: 600px) { 
+  /* Add responsive styles here for smaller screens */ 
+}

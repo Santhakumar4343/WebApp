@@ -1,0 +1,62 @@
+.welcome-message{
+  color: #fff;
+}
+
+.form-control{
+  width: 650px;
+  height: 47px;
+  margin-top: 20px;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+}
+.iconcart {
+  position: relative;
+}
+
+.iconcart p {
+  color: red;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 16px;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 35px;
+}
+
+
+@media (max-width: 568px) {
+  .navbar {
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+
+  .logo{
+      width:70px;
+      height: 50px;
+      margin-top: -20px;
+  }
+  .nav-icon {
+      color: white;
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .iconcart{
+      margin-left: 90px;
+    }
+    .sign-in-button{
+      margin-right: 20px;
+    }
+
+
+}

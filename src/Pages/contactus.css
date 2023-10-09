@@ -1,0 +1,93 @@
+.overalldiv{
+    margin-bottom: 50px;
+}
+
+.left{
+    margin: auto;
+    padding-left: 170px;
+}
+.Budapest{
+     font-family: 'Dancing Script', cursive;
+    color:#140735;
+}
+.contactus {
+    margin-top: 23px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.list-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s; 
+}
+.para p{
+    text-align: left;
+}
+.para p:hover{
+   color: #e29828;
+}
+.list-icon:hover {
+    color: #e29828; 
+}
+.elementor-widget .elementor-icon-list-icon i {
+    width: 1.25em;
+    font-size: var(--e-icon-list-icon-size);
+}
+.para p{
+    margin-top: 30px;
+
+}
+.contact-form {
+    background-image: url(https://kit.envalab-demos.com/dillmill/wp-content/uploads/2023/05/06_Dillmill-Contact_Us_03.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff; 
+    color: #fff;
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.custom-button {
+    background-color: transparent;
+    border: 2px solid #fff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+button.custom-button:hover {
+    background-color: transparent; 
+    color: #f7f8fa; 
+    border:1px solid #f7f8fa;
+}
